@@ -10,7 +10,7 @@ Este proyecto simula el ciclo de vida de una transacción bancaria (iniciación,
 La aplicación demuestra el **desacoplamiento** de servicios y la actualización **en tiempo real** del estado mediante **Kafka** y **WebSockets**.
 
 ## 📸 Vista Previa
-
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/530b7061-8f4e-4f16-b875-db4ad33d382b" />
 > El sistema visualiza en tiempo real cómo la transacción pasa por los distintos microservicios simulados.
 
 ---
