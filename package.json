@@ -1,0 +1,30 @@
+{
+  "name": "tp-7-banco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "npx tsc lib/kafka.ts lib/websocket-server.ts lib/orchestrator.ts --outDir dist",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
